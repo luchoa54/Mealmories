@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Pão de Queijo"; ObjectID = "6ov-Dq-3bS"; */
+"6ov-Dq-3bS.text" = "Pão de Queijo";
+
+/* Class = "UILabel"; text = "Vamos arrumar os ingredientes e preparar a cozinha para iniciar! "; ObjectID = "GKb-m9-hQD"; */
+"GKb-m9-hQD.text" = "Let's pack the ingredients and get the kitchen ready to start!";
+
+/* Class = "UILabel"; text = "Hora de organizar!"; ObjectID = "Jcb-0U-fo5"; */
+"Jcb-0U-fo5.text" = "Time to organize!";
+
+/* Class = "UILabel"; text = "Fácil"; ObjectID = "OWb-pM-Dpc"; */
+"OWb-pM-Dpc.text" = "Easy";
+
+/* Class = "UILabel"; text = "Ingredientes"; ObjectID = "R20-B8-fUg"; */
+"R20-B8-fUg.text" = "Ingredients";
+
+/* Class = "UILabel"; text = "Ingredientes"; ObjectID = "SDO-8j-LxM"; */
+"SDO-8j-LxM.text" = "Ingredients";
+
+/* Class = "UIButton"; configuration.title = "Iniciar preparo!"; ObjectID = "aj3-nP-hDa"; */
+"aj3-nP-hDa.configuration.title" = "Start preparation!";
+
+/* Class = "UIButton"; normalTitle = "Iniciar preparo!"; ObjectID = "aj3-nP-hDa"; */
+"aj3-nP-hDa.normalTitle" = "Start preparation!";
+
+/* Class = "UILabel"; text = "30 min"; ObjectID = "f6A-Mu-lPY"; */
+"f6A-Mu-lPY.text" = "30 min";
+
+/* Class = "UILabel"; text = "4 + anos"; ObjectID = "iAm-cQ-6lm"; */
+"iAm-cQ-6lm.text" = "4 + years";
+
+/* Class = "UILabel"; text = "Ingredientes"; ObjectID = "jvq-Hp-p4N"; */
+"jvq-Hp-p4N.text" = "Ingredients";
+
+/* Class = "UILabel"; text = "Etapas"; ObjectID = "szb-IX-H4N"; */
+"szb-IX-H4N.text" = "Steps";

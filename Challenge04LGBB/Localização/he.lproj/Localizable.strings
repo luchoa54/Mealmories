@@ -1,0 +1,90 @@
+/* 
+  Localizable.strings
+  Challenge04LGBB
+
+  Created by Luciano Uchoa on 09/09/22.
+  
+*/
+
+"Settings" = "הגדרות";;
+"Cancel" = = "ביטול";
+"Permission Required" = "דרושה רשות";
+"To save images, you need to enable permission in settings" = "כדי לשמור תמונות, עליך להפעיל הרשאה בהגדרות";
+
+//Titulo-Receitas
+"Pão de Queijo" = "לחם גבינה";
+"Pipoca" = "פופקורן";
+
+//Tipo de Turnos
+"Adulto" = "מְבוּגָר";
+"Criança" = "יֶלֶד";
+
+//Dificuldades
+"Fácil" = "קַל";
+
+//Idades
+"+ 4 anos" = "4 שנים";
+"+ 3 anos" = "3 שנים";
+"+4 anos" = "4 שנים";
+"+3 anos" = "3 שנים";
+
+//Label embaixo do Turno
+"Siga as instruções abaixo:" = "בצע את ההוראות הבאות:";
+"Vocês podem fazer essa etapa juntos!!!" = "אתם יכולים לעשות את הצעד הזה ביחד!!!";
+
+//Ingredientes - Pão de Queijo
+
+"400g de polvilho doce ou de sua preferência" = "400 גרם של פזר מתוק או לבחירתכם";
+"400g de queijo parmesão ralado" = "400 גרם גבינת פרמזן מגוררת";
+"2 caixas de creme de leite (400g)" = "2 קופסאות שמנת חמוצה (400 גרם)";
+"Para untar: manteiga e trigo, spray untador, papel manteiga ou óleo." = "לשמן: חמאה וחיטה, ספריי שומן, נייר פרגמנט או שמן";
+
+//Descricao das Etapas - Pão de Queijo
+
+"Em uma vasilha, junte os ingredientes secos: polvilho doce, e parmesão." = "מערבבים בקערה את החומרים היבשים: מפזרים מתוקים ופרמזן";
+"Misture bem com uma colher ou com a mão!" = "מערבבים היטב עם כפית או ביד!";
+"Adicione o creme de leite, misturando com as mãos até formar uma massa homogênea e firme." = "מוסיפים את השמנת, מערבבים עם הידיים עד שנוצרת מסה הומוגנית ויציבה.";
+"Retire porções pequenas da massa." = "מוציאים חלקים קטנים מהבצק";
+"Modele do formato que quiser, bolinhas, dadinhos, seja criativo!" = "תעצב כל צורה שתרצה, נקודות, קוביות, תהיה יצירתי!";
+"Unte uma fôrma com manteiga e trigo, papel manteiga ou spray de untar." = "לשמן תבנית עם חמאה וחיטה, נייר פרגמנט או ספריי שומן";
+"Coloque as massas modeladas ao lado da outra na fôrma untada." = "מניחים את הבצקים המעוצבים אחד ליד השני בתבנית המשומנת";
+"Leve ao forno alto, preaquecido a 180°C , por 15 minutos ou até dourar." = "לאפות בתנור גבוה, שחומם מראש ל-180 מעלות, במשך 15 דקות או עד להזהבה";
+"Retire e sirva em seguida." = "הסר והגיש מיד";
+
+//Dicas - Pão de Queijo
+
+"Qualquer tipo de polvilho é bem-vindo, variando de acordo com o seu gosto." = "כל סוג של זילוף יתקבל בברכה, תלוי לטעמכם.";
+"Para não perder o ponto da massa, adicione creme de leite aos poucos." = "כדי לא לאבד את נקודת הבצק, מוסיפים חלב לאט לאט";
+"Pode haver ajuda do adulto na orientação, mas é interessante que a criança faça sozinha." = "ייתכן שיש עזרה של מבוגרים בהתמצאות, אבל מעניין שהילד יעשה זאת לבד";
+"Deixe sempre um pequeno espaço entre as massas, pode facilitar na hora de retirar os pães." = "השאירו תמיד מרווח קטן בין הבצקים, זה יכול להקל על הוצאת הלחמניות";
+
+//Etapas - Pão de Queijo
+
+"Preparo da massa" = "הכנת בצק";
+"Preparo das formas" = "הכנת טופס";
+"Finalizar preparo" = "סיים את ההכנה";
+
+//Ingredientes - Pipoca
+"4 colheres (sopa) de milho para pipoca" = "4 כפות תירס לפופקורן";
+"4 colheres (sopa) de água" = "4 כפות מים";
+"1 colher (chá) de sal" = "כפית מלח";
+"Plástico Filme" = "סרט פלסטיק";
+
+//Descrição das Etapas - Pipoca
+
+"Em uma tigela de vidro, adicione o milho para pipoca e sal." = "בקערת זכוכית מוסיפים את הפופקורן והמלח";
+"Adicione as colheres de água e misture" = "מוסיפים את כפות המים ומערבבים";
+"Cubra com um filme plástico" = "כיסוי בניילון נצמד";
+"Faça 4 furos com garfo" = "קדוח 4 חורים עם מזלג";
+"Coloque por 4 minutos no microondas" = "שים את זה במיקרוגל למשך 4 דקות";
+"Retire a pipoca do microondas" = "הסר פופקורן מהמיקרוגל";
+
+//Dicas - Pipoca
+
+"Esqueceu a quantidade? Verifique-a no ícone do canto superior direito da tela!" = "שכחת את הסכום? בדוק את זה באייקון בפינה הימנית העליונה של המסך!";
+
+//Etapas - Pipoca
+
+"Juntar" = "להיפגש";
+"Cobrir" = "לכסות";
+"Microondas" = "מיקרוגל";

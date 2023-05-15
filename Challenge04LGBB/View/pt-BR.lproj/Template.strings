@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Pão de Queijo"; ObjectID = "5Bi-AQ-e39"; */
+"5Bi-AQ-e39.text" = "Pão de Queijo";
+
+/* Class = "UILabel"; text = "Feito com Mealmories"; ObjectID = "M78-2x-Kxj"; */
+"M78-2x-Kxj.text" = "Feito com Mealmories";
+
+/* Class = "UIButton"; configuration.title = "Compartilhar"; ObjectID = "jas-Fp-geX"; */
+"jas-Fp-geX.configuration.title" = "Compartilhar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jas-Fp-geX"; */
+"jas-Fp-geX.normalTitle" = "Button";

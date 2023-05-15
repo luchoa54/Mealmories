@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baloo2-Bold.ttf">
+            <string>Baloo2-Bold</string>
+        </array>
+        <array key="Baloo2-Regular.ttf">
+            <string>Baloo2-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Forgot Recipe View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ForgetRecipe" id="Y6W-OH-hqX" customClass="ForgotRecipeViewController" customModule="Mealmories" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6We-jP-4fX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v7E-sY-3am" userLabel="MainView">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredientes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnZ-PP-asU">
+                                                <rect key="frame" x="20" y="40" width="487" height="35"/>
+                                                <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="30"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="63" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bch-gj-vrQ">
+                                                <rect key="frame" x="20" y="100" width="560" height="240"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="240" id="4dh-bj-g5r"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="vI0-G7-isK"/>
+                                                </constraints>
+                                                <color key="sectionIndexBackgroundColor" name="CorDaview"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="63" id="gic-db-xhe" customClass="TableIngredientCell" customModule="Mealmories" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="50" width="560" height="63"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gic-db-xhe" id="HFy-Ix-DOK">
+                                                            <rect key="frame" x="0.0" y="0.0" width="560" height="63"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6A-Fa-R1X">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="560" height="63"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVc-Lm-YH9">
+                                                                            <rect key="frame" x="46" y="8" width="301" height="50"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="14"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z2j-z4-YOa">
+                                                                            <rect key="frame" x="8" y="15" width="30" height="35"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        </imageView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="1vf-eA-O9x"/>
+                                                                    </constraints>
+                                                                </view>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="a6A-Fa-R1X" firstAttribute="top" secondItem="HFy-Ix-DOK" secondAttribute="top" id="9pB-lB-2yD"/>
+                                                                <constraint firstAttribute="trailing" secondItem="a6A-Fa-R1X" secondAttribute="trailing" id="ADV-yj-fwe"/>
+                                                                <constraint firstItem="a6A-Fa-R1X" firstAttribute="leading" secondItem="HFy-Ix-DOK" secondAttribute="leading" id="If5-ka-yYq"/>
+                                                                <constraint firstAttribute="bottom" secondItem="a6A-Fa-R1X" secondAttribute="bottom" id="Uyg-1O-l2P"/>
+                                                            </constraints>
+                                                        </tableViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="bgView" destination="a6A-Fa-R1X" id="6Sj-Xn-afw"/>
+                                                            <outlet property="imageCell" destination="z2j-z4-YOa" id="R9x-3b-6GJ"/>
+                                                            <outlet property="labelCell" destination="tVc-Lm-YH9" id="dp9-lV-8LC"/>
+                                                        </connections>
+                                                    </tableViewCell>
+                                                </prototypes>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </tableView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Etapas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHk-4v-efi">
+                                                <rect key="frame" x="20" y="348" width="487" height="35"/>
+                                                <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="30"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verifique o total de etapas para serem feitas!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pz-LZ-rbo">
+                                                <rect key="frame" x="20" y="384" width="560" height="14"/>
+                                                <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="12"/>
+                                                <color key="textColor" name="Mealmories_Gray"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="63" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4sP-Ad-KqN" userLabel="TableEtapas">
+                                                <rect key="frame" x="20" y="406" width="560" height="240"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="240" id="6ea-97-TcK"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="MNf-5V-HuX"/>
+                                                </constraints>
+                                                <color key="sectionIndexBackgroundColor" name="CorDaview"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell2" rowHeight="63" id="sZt-e7-PRF" customClass="TableEtapasCell" customModule="Mealmories" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="50" width="560" height="63"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sZt-e7-PRF" id="u0d-Se-Bz7">
+                                                            <rect key="frame" x="0.0" y="0.0" width="560" height="63"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jnI-M1-0gn">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="560" height="63"/>
+                                                                    <subviews>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O3C-WS-pRK">
+                                                                            <rect key="frame" x="8" y="18" width="30" height="35"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredientes" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPP-ea-giP">
+                                                                            <rect key="frame" x="46" y="11" width="301" height="50"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="14"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="VYl-Od-4up"/>
+                                                                    </constraints>
+                                                                </view>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="jnI-M1-0gn" firstAttribute="top" secondItem="u0d-Se-Bz7" secondAttribute="top" id="5ao-0K-3vT"/>
+                                                                <constraint firstItem="jnI-M1-0gn" firstAttribute="leading" secondItem="u0d-Se-Bz7" secondAttribute="leading" id="eSM-N6-91r"/>
+                                                                <constraint firstAttribute="bottom" secondItem="jnI-M1-0gn" secondAttribute="bottom" id="sHZ-t7-j12"/>
+                                                                <constraint firstAttribute="trailing" secondItem="jnI-M1-0gn" secondAttribute="trailing" id="xNl-oj-c1q"/>
+                                                            </constraints>
+                                                        </tableViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="backView" destination="jnI-M1-0gn" id="gpn-pJ-Yt4"/>
+                                                            <outlet property="imageEtapaCell" destination="O3C-WS-pRK" id="mhr-9y-dvp"/>
+                                                            <outlet property="labelEtapaCell" destination="vPP-ea-giP" id="9PB-3M-9b0"/>
+                                                        </connections>
+                                                    </tableViewCell>
+                                                </prototypes>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </tableView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Esqueceu os ingredientes? Relembre Aqui!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giz-9P-XhJ">
+                                                <rect key="frame" x="20" y="72.666666666666671" width="560" height="14"/>
+                                                <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="12"/>
+                                                <color key="textColor" name="Mealmories_Gray"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" name="CorDaview"/>
+                                        <constraints>
+                                            <constraint firstItem="dnZ-PP-asU" firstAttribute="leading" secondItem="v7E-sY-3am" secondAttribute="leading" constant="20" id="0hU-We-VVZ"/>
+                                            <constraint firstItem="3pz-LZ-rbo" firstAttribute="top" secondItem="KHk-4v-efi" secondAttribute="bottom" constant="1" id="5ZQ-VF-DgB"/>
+                                            <constraint firstItem="bch-gj-vrQ" firstAttribute="leading" secondItem="v7E-sY-3am" secondAttribute="leading" constant="20" id="9LK-0S-83S"/>
+                                            <constraint firstAttribute="trailing" secondItem="KHk-4v-efi" secondAttribute="trailing" constant="93" id="DZS-33-jny"/>
+                                            <constraint firstItem="giz-9P-XhJ" firstAttribute="leading" secondItem="v7E-sY-3am" secondAttribute="leading" constant="20" id="GGq-lX-Zid"/>
+                                            <constraint firstItem="bch-gj-vrQ" firstAttribute="top" secondItem="giz-9P-XhJ" secondAttribute="bottom" constant="13.5" id="Ixf-wB-ajS"/>
+                                            <constraint firstAttribute="height" constant="800" id="Lcl-XF-nJA"/>
+                                            <constraint firstAttribute="trailing" secondItem="3pz-LZ-rbo" secondAttribute="trailing" constant="20" symbolic="YES" id="PYQ-wK-IQO"/>
+                                            <constraint firstItem="4sP-Ad-KqN" firstAttribute="leading" secondItem="v7E-sY-3am" secondAttribute="leading" constant="20" id="RPn-8Q-frp"/>
+                                            <constraint firstItem="KHk-4v-efi" firstAttribute="leading" secondItem="v7E-sY-3am" secondAttribute="leading" constant="20" id="U3E-4D-qbD"/>
+                                            <constraint firstItem="4sP-Ad-KqN" firstAttribute="top" secondItem="3pz-LZ-rbo" secondAttribute="bottom" constant="8" symbolic="YES" id="eIZ-fo-roo"/>
+                                            <constraint firstAttribute="trailing" secondItem="giz-9P-XhJ" secondAttribute="trailing" constant="20" id="hZS-1V-Dlh"/>
+                                            <constraint firstAttribute="trailing" secondItem="4sP-Ad-KqN" secondAttribute="trailing" constant="20" id="jce-58-DES"/>
+                                            <constraint firstItem="3pz-LZ-rbo" firstAttribute="leading" secondItem="v7E-sY-3am" secondAttribute="leading" constant="20" id="jfn-Ta-jaZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="bch-gj-vrQ" secondAttribute="trailing" constant="20" id="q9d-GW-SRU"/>
+                                            <constraint firstAttribute="trailing" secondItem="dnZ-PP-asU" secondAttribute="trailing" constant="93" id="qyn-hK-CmZ"/>
+                                            <constraint firstItem="dnZ-PP-asU" firstAttribute="top" secondItem="v7E-sY-3am" secondAttribute="top" constant="40" id="v9H-kk-43h"/>
+                                            <constraint firstItem="KHk-4v-efi" firstAttribute="top" secondItem="bch-gj-vrQ" secondAttribute="bottom" constant="8" symbolic="YES" id="vOU-y1-uOS"/>
+                                            <constraint firstItem="giz-9P-XhJ" firstAttribute="top" secondItem="dnZ-PP-asU" secondAttribute="bottom" constant="-2.5" id="xJX-V7-E3R"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="CorDaview"/>
+                                <constraints>
+                                    <constraint firstItem="v7E-sY-3am" firstAttribute="leading" secondItem="TFw-1X-KvX" secondAttribute="leading" id="25b-0i-Vcc"/>
+                                    <constraint firstAttribute="trailing" secondItem="v7E-sY-3am" secondAttribute="trailing" id="5Kq-UZ-tHq"/>
+                                    <constraint firstItem="TFw-1X-KvX" firstAttribute="bottom" secondItem="v7E-sY-3am" secondAttribute="bottom" id="7aC-K2-S1N"/>
+                                    <constraint firstAttribute="bottom" secondItem="v7E-sY-3am" secondAttribute="bottom" id="L3L-rT-Tz6"/>
+                                    <constraint firstItem="v7E-sY-3am" firstAttribute="width" secondItem="MEV-cp-Abe" secondAttribute="width" id="drl-Q1-h8C"/>
+                                    <constraint firstItem="TFw-1X-KvX" firstAttribute="trailing" secondItem="v7E-sY-3am" secondAttribute="trailing" id="g1o-Zm-kyO"/>
+                                    <constraint firstItem="v7E-sY-3am" firstAttribute="leading" secondItem="6We-jP-4fX" secondAttribute="leading" id="mCH-Xv-x5a"/>
+                                    <constraint firstItem="v7E-sY-3am" firstAttribute="top" secondItem="6We-jP-4fX" secondAttribute="top" id="uY5-jV-DZ8"/>
+                                    <constraint firstItem="v7E-sY-3am" firstAttribute="top" secondItem="TFw-1X-KvX" secondAttribute="top" id="yt7-S5-tym"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="TFw-1X-KvX"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="MEV-cp-Abe"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="CorDaview"/>
+                        <constraints>
+                            <constraint firstItem="6We-jP-4fX" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="IUg-sg-Pd7"/>
+                            <constraint firstItem="6We-jP-4fX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ROC-sG-klP"/>
+                            <constraint firstAttribute="bottom" secondItem="6We-jP-4fX" secondAttribute="bottom" id="c0r-1a-tHn"/>
+                            <constraint firstItem="6We-jP-4fX" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="zfg-KC-teb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollViewHeight" destination="Lcl-XF-nJA" id="g1Z-x8-6nz"/>
+                        <outlet property="tableEtapas" destination="4sP-Ad-KqN" id="NCb-zd-KMW"/>
+                        <outlet property="tableEtapasHeight" destination="6ea-97-TcK" id="yjf-U8-4Wd"/>
+                        <outlet property="tableIngredients" destination="bch-gj-vrQ" id="Ne3-1s-nUM"/>
+                        <outlet property="tableIngredientsHeight" destination="4dh-bj-g5r" id="cWq-fx-U3E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="63.616071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="CorDaview">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Mealmories_Gray">
+            <color red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

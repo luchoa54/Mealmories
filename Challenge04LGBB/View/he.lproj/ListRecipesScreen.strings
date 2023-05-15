@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Idade"; ObjectID = "1Br-F6-jyq"; */
+"1Br-F6-jyq.text" = "גיל";
+
+/* Class = "UILabel"; text = "Receitas em destaque"; ObjectID = "Axs-N1-jAw"; */
+"Axs-N1-jAw.text" = "מתכונים מומלצים";
+
+/* Class = "UILabel"; text = "Por Isabelle Colares"; ObjectID = "FDW-Ne-LYO"; */
+"FDW-Ne-LYO.text" = "נוצר על ידי Team Mealmories";
+
+/* Class = "UILabel"; text = "Mealmories!"; ObjectID = "NvP-H6-gWn"; */
+"NvP-H6-gWn.text" = "Mealmories!";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pc1-d5-Zvm"; */
+"Pc1-d5-Zvm.text" = "Label";
+
+/* Class = "UILabel"; text = "Vamos Criar "; ObjectID = "YFt-pX-v86"; */
+"YFt-pX-v86.text" = "בואו נעשה ";
+
+/* Class = "UILabel"; text = "Tempo"; ObjectID = "c76-mQ-LoN"; */
+"c76-mQ-LoN.text" = "זְמַן";
+
+/* Class = "UILabel"; text = "Dificuldade"; ObjectID = "fm9-CO-36o"; */
+"fm9-CO-36o.text" = "קושי";
+
+/* Class = "UILabel"; text = "Receitas Rápidas"; ObjectID = "h0x-eN-oBv"; */
+"h0x-eN-oBv.text" = "מתכונים מהירים";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hpc-SG-AQf"; */
+"hpc-SG-AQf.text" = "Label";
+
+/* Class = "UILabel"; text = "Nome Da Receita"; ObjectID = "jlA-Ri-iju"; */
+"jlA-Ri-iju.text" = "שם המתכון";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nI6-0I-Opg"; */
+"nI6-0I-Opg.text" = "Label";
+
+/* Class = "UILabel"; text = "Por Isabelle Colares"; ObjectID = "tSv-BZ-xJR"; */
+"tSv-BZ-xJR.text" = "נוצר על ידי Team Mealmories";
+
+/* Class = "UILabel"; text = "Pão de Queijo"; ObjectID = "zbM-FJ-dRC"; */
+"zbM-FJ-dRC.text" = "לחם גבינה";

@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; configuration.title = "Explorar mais receitas"; ObjectID = "1MO-Jw-M2u"; */
+"1MO-Jw-M2u.configuration.title" = "Explorar mais receitas";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1MO-Jw-M2u"; */
+"1MO-Jw-M2u.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Receita Concluída:"; ObjectID = "CBY-am-477"; */
+"CBY-am-477.text" = "Receita Concluída:";
+
+/* Class = "UILabel"; text = "Cheese Bread"; ObjectID = "IZR-Uh-86L"; */
+"IZR-Uh-86L.text" = "Cheese Bread";
+
+/* Class = "UILabel"; text = "Registre suas Mealmories!"; ObjectID = "ULe-yo-ZIj"; */
+"ULe-yo-ZIj.text" = "Registre suas Mealmories!";
+
+/* Class = "UILabel"; text = "Lembre-se de tirar uma foto quando o prato estiver pronto e registre essas mealmories!"; ObjectID = "YK3-rx-rUD"; */
+"YK3-rx-rUD.text" = "Lembre-se de tirar uma foto quando o prato estiver pronto e registre essas mealmories!";
+
+/* Class = "UILabel"; text = "Parabéns!"; ObjectID = "xjV-c0-nc3"; */
+"xjV-c0-nc3.text" = "Parabéns!";

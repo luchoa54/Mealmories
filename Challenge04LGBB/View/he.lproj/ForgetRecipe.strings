@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Verifique o total de etapas para serem feitas!"; ObjectID = "3pz-LZ-rbo"; */
+"3pz-LZ-rbo.text" = "בדוק את סך השלבים שיש לעשות!";
+
+/* Class = "UILabel"; text = "Etapas"; ObjectID = "KHk-4v-efi"; */
+"KHk-4v-efi.text" = "שלבים";
+
+/* Class = "UILabel"; text = "Ingredientes"; ObjectID = "dnZ-PP-asU"; */
+"dnZ-PP-asU.text" = "רכיבים";
+
+/* Class = "UILabel"; text = "Esqueceu os ingredientes? Relembre Aqui!"; ObjectID = "giz-9P-XhJ"; */
+"giz-9P-XhJ.text" = "שכחת את המרכיבים? זכור כאן!";
+
+/* Class = "UILabel"; text = "Ingredientes"; ObjectID = "tVc-Lm-YH9"; */
+"tVc-Lm-YH9.text" = "רכיבים";
+
+/* Class = "UILabel"; text = "Ingredientes"; ObjectID = "vPP-ea-giP"; */
+"vPP-ea-giP.text" = "רכיבים";

@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5zI-VN-YCF"; */
+"5zI-VN-YCF.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Registre Mealmories"; ObjectID = "9dn-Lc-v1A"; */
+"9dn-Lc-v1A.text" = "Registre Mealmories";
+
+/* Class = "UILabel"; text = "Cozinhe e se divirta"; ObjectID = "R58-Ko-UWX"; */
+"R58-Ko-UWX.text" = "Cozinhe e se divirta";
+
+/* Class = "UILabel"; text = "Capture momentos mais inesperados ou divertidos sem sair do App!"; ObjectID = "WlC-63-IfU"; */
+"WlC-63-IfU.text" = "Capture momentos mais inesperados ou divertidos sem sair do App!";
+
+/* Class = "UIButton"; configuration.title = "Pular"; ObjectID = "XkB-W7-dVI"; */
+"XkB-W7-dVI.configuration.title" = "Pular";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XkB-W7-dVI"; */
+"XkB-W7-dVI.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Pular"; ObjectID = "Zm7-fv-9vI"; */
+"Zm7-fv-9vI.configuration.title" = "Pular";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zm7-fv-9vI"; */
+"Zm7-fv-9vI.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Estimule cooperação na cozinha por meio de turnos e instruções."; ObjectID = "cKc-AG-6bd"; */
+"cKc-AG-6bd.text" = "Estimule cooperação na cozinha por meio de turnos e instruções.";
+
+/* Class = "UILabel"; text = "Encontre sua receita"; ObjectID = "n0M-L3-5bz"; */
+"n0M-L3-5bz.text" = "Encontre sua receita";
+
+/* Class = "UIButton"; configuration.title = "Vamos Começar!"; ObjectID = "tg7-T8-k4e"; */
+"tg7-T8-k4e.configuration.title" = "Vamos Começar!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tg7-T8-k4e"; */
+"tg7-T8-k4e.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uJa-y1-qj5"; */
+"uJa-y1-qj5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Você encontra a receita mais apropriada para fazer pela duração, nível e faixa etária infantil!"; ObjectID = "vHU-it-w2l"; */
+"vHU-it-w2l.text" = "Você encontra a receita mais apropriada para fazer pela duração, nível e faixa etária infantil!";

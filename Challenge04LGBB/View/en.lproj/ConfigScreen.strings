@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Efeitos Sonoros"; ObjectID = "AqQ-sd-6TU"; */
+"AqQ-sd-6TU.text" = "Sound Effects";
+
+/* Class = "UINavigationItem"; title = "Configurações"; ObjectID = "Dyx-54-8Vf"; */
+"Dyx-54-8Vf.title" = "Settings";
+
+/* Class = "UILabel"; text = "Habilita a troca de instruções por meio de interações sem toque (Touchless Interactions), com o uso do piscar dos olhos em suas respectivas direções"; ObjectID = "Pvq-dy-iuL"; */
+"Pvq-dy-iuL.text" = "Enable the exchange of instructions through Touchless Interactions, using the blink of the eyes in their respective directions.";
+
+/* Class = "UILabel"; text = "Interação sem toque"; ObjectID = "fOS-jW-tIw"; */
+"fOS-jW-tIw.text" = "Touchless Interaction";
+
+/* Class = "UILabel"; text = "Habilite ou Desabilite os efeitos sonoros."; ObjectID = "je1-Ts-nQu"; */
+"je1-Ts-nQu.text" = "Enable or Disable sound effects.";
+
+/* Class = "UILabel"; text = "Háptica"; ObjectID = "c2e-Ll-UvA"; */
+"c2e-Ll-UvA.text" = "Haptic";
+
+/* Class = "UILabel"; text = "Habilite ou Desabilite o feedback háptico ao apertar os botões."; ObjectID = "r6g-I7-2R1"; */
+"r6g-I7-2R1.text" = "Enable or Disable haptic feedback when pushing buttons.";

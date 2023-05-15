@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Efeitos Sonoros"; ObjectID = "AqQ-sd-6TU"; */
+"AqQ-sd-6TU.text" = "אפקטים קוליים";
+
+/* Class = "UINavigationItem"; title = "Configurações"; ObjectID = "Dyx-54-8Vf"; */
+"Dyx-54-8Vf.title" = "הגדרות";
+
+/* Class = "UILabel"; text = "Habilita a troca de instruções por meio de interações sem toque (Touchless Interactions), com o uso do piscar dos olhos em suas respectivas direções"; ObjectID = "Pvq-dy-iuL"; */
+"Pvq-dy-iuL.text" = "מאפשר החלפת הוראות באמצעות אינטראקציות ללא מגע, תוך שימוש במצמוץ העיניים בכיוונים המתאימים";
+
+/* Class = "UILabel"; text = "Interação sem toque"; ObjectID = "fOS-jW-tIw"; */
+"fOS-jW-tIw.text" = "ללא מגע אינטראקציה";
+
+/* Class = "UILabel"; text = "Habilite ou Desabilite os efeitos sonoros."; ObjectID = "je1-Ts-nQu"; */
+"je1-Ts-nQu.text" = "הפעל או השבת אפקטים קוליים.";

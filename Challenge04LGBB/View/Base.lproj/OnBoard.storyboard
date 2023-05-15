@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baloo2-Bold.ttf">
+            <string>Baloo2-Bold</string>
+        </array>
+        <array key="Baloo2-SemiBold.ttf">
+            <string>Baloo2-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Page1-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Page1" id="Y6W-OH-hqX" customClass="Page1" customModule="Mealmories" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zm7-fv-9vI">
+                                <rect key="frame" x="20" y="671" width="77" height="52"/>
+                                <color key="backgroundColor" name="Child_Orange"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="cht-VR-ZNw"/>
+                                    <constraint firstAttribute="width" constant="77" id="jEH-Ss-EDE"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Pular">
+                                    <fontDescription key="titleFontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="17"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Encontre sua receita" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0M-L3-5bz">
+                                <rect key="frame" x="20" y="109" width="350" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fWB-ON-p4q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="30"/>
+                                <color key="textColor" name="Child_Orange"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ob.1" translatesAutoresizingMaskIntoConstraints="NO" id="SjF-oY-RED">
+                                <rect key="frame" x="20" y="193.99999999999997" width="350" height="353.33333333333326"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você encontra a receita mais apropriada para fazer pela duração, nível e faixa etária infantil!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vHU-it-w2l">
+                                <rect key="frame" x="20" y="567.33333333333337" width="350" height="55.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Baloo2-SemiBold" family="Baloo 2" pointSize="32"/>
+                                <color key="textColor" name="Mealmories_Gray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJa-y1-qj5">
+                                <rect key="frame" x="315" y="671" width="55" height="52"/>
+                                <color key="backgroundColor" name="Child_Orange"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="dqs-zO-L9g"/>
+                                    <constraint firstAttribute="height" constant="52" id="zV3-bq-a0M"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Seta 2"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="confete.amarelo" translatesAutoresizingMaskIntoConstraints="NO" id="yYB-43-gw3">
+                                <rect key="frame" x="-36" y="630" width="300" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="RnM-bs-hFh"/>
+                                    <constraint firstAttribute="height" constant="280" id="tXo-q7-cUn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="CorDaview"/>
+                        <constraints>
+                            <constraint firstItem="n0M-L3-5bz" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="E1c-Me-vGN"/>
+                            <constraint firstItem="yYB-43-gw3" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="-36" id="EgL-XU-Vgz"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="n0M-L3-5bz" secondAttribute="trailing" constant="20" id="Jht-xv-D7H"/>
+                            <constraint firstItem="SjF-oY-RED" firstAttribute="top" secondItem="n0M-L3-5bz" secondAttribute="bottom" constant="35" id="K6d-Sd-Z8V"/>
+                            <constraint firstItem="vHU-it-w2l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="LNr-jv-kJy"/>
+                            <constraint firstItem="SjF-oY-RED" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.414692" id="Mx7-Cu-59v"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="SjF-oY-RED" secondAttribute="trailing" constant="20" id="Nrg-St-PHp"/>
+                            <constraint firstAttribute="bottom" secondItem="yYB-43-gw3" secondAttribute="bottom" constant="-58" id="PO7-No-R8N"/>
+                            <constraint firstItem="SjF-oY-RED" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.897436" id="QKA-Ck-u4q"/>
+                            <constraint firstItem="Zm7-fv-9vI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="R8w-I3-mTx"/>
+                            <constraint firstItem="uJa-y1-qj5" firstAttribute="top" secondItem="vHU-it-w2l" secondAttribute="bottom" constant="48" id="YaD-FC-9gn"/>
+                            <constraint firstItem="vHU-it-w2l" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.897436" id="ZdO-cS-FlT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="uJa-y1-qj5" secondAttribute="trailing" constant="20" id="a5I-Ge-sOJ"/>
+                            <constraint firstItem="vHU-it-w2l" firstAttribute="top" secondItem="SjF-oY-RED" secondAttribute="bottom" constant="20" id="bax-bd-TVR"/>
+                            <constraint firstItem="SjF-oY-RED" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="gS6-35-ixB"/>
+                            <constraint firstItem="n0M-L3-5bz" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="jEQ-Sr-aMq"/>
+                            <constraint firstItem="vHU-it-w2l" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0651659" id="wTP-0q-IiN"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="vHU-it-w2l" secondAttribute="trailing" constant="20" id="xj5-Ba-U2P"/>
+                            <constraint firstItem="Zm7-fv-9vI" firstAttribute="top" secondItem="vHU-it-w2l" secondAttribute="bottom" constant="48" id="yab-xd-zTb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wyQ-OI-gb6"/>
+                    <connections>
+                        <outlet property="botao1" destination="Zm7-fv-9vI" id="lY0-e6-BDm"/>
+                        <outlet property="confeteAmarelo" destination="yYB-43-gw3" id="BhB-tp-j4Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986.15384615384608" y="-23.459715639810426"/>
+        </scene>
+        <!--Page2-->
+        <scene sceneID="jxV-2O-z95">
+            <objects>
+                <viewController storyboardIdentifier="Page2" id="OnF-vC-spW" customClass="Page2" customModule="Mealmories" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sH2-vT-xc4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cozinhe e se divirta" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R58-Ko-UWX">
+                                <rect key="frame" x="20" y="109" width="350" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2ox-fO-W89"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="30"/>
+                                <color key="textColor" name="Mix_Magenta"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ob.2" translatesAutoresizingMaskIntoConstraints="NO" id="vuA-ep-puT">
+                                <rect key="frame" x="20" y="193.99999999999997" width="350" height="353.33333333333326"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estimule cooperação na cozinha por meio de turnos e instruções." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="cKc-AG-6bd">
+                                <rect key="frame" x="20" y="567.33333333333337" width="350" height="55.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Baloo2-SemiBold" family="Baloo 2" pointSize="32"/>
+                                <color key="textColor" name="Mealmories_Gray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkB-W7-dVI">
+                                <rect key="frame" x="20" y="670.66666666666663" width="77" height="52"/>
+                                <color key="backgroundColor" name="Mix_Magenta"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="5CK-L2-C9d"/>
+                                    <constraint firstAttribute="width" constant="77" id="mfj-5a-mM6"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Pular">
+                                    <fontDescription key="titleFontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="17"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zI-VN-YCF">
+                                <rect key="frame" x="315" y="670.66666666666663" width="55" height="52"/>
+                                <color key="backgroundColor" name="Mix_Magenta"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="knA-La-Vbu"/>
+                                    <constraint firstAttribute="width" constant="55" id="vlL-NQ-hcB"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Seta 2"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="confete" translatesAutoresizingMaskIntoConstraints="NO" id="o2v-fa-wc1">
+                                <rect key="frame" x="-33" y="630" width="300" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="o0Z-2u-aXY"/>
+                                    <constraint firstAttribute="width" constant="300" id="zcH-DM-F9o"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CLy-BP-ivP"/>
+                        <color key="backgroundColor" name="CorDaview"/>
+                        <constraints>
+                            <constraint firstItem="R58-Ko-UWX" firstAttribute="top" secondItem="CLy-BP-ivP" secondAttribute="top" constant="50" id="F9f-5l-WPc"/>
+                            <constraint firstItem="CLy-BP-ivP" firstAttribute="trailing" secondItem="cKc-AG-6bd" secondAttribute="trailing" constant="20" id="JCb-KX-baY"/>
+                            <constraint firstItem="cKc-AG-6bd" firstAttribute="top" secondItem="vuA-ep-puT" secondAttribute="bottom" constant="20" id="N1u-c3-bYf"/>
+                            <constraint firstAttribute="bottom" secondItem="o2v-fa-wc1" secondAttribute="bottom" constant="-58" id="Swk-O0-3L6"/>
+                            <constraint firstItem="cKc-AG-6bd" firstAttribute="width" secondItem="sH2-vT-xc4" secondAttribute="width" multiplier="0.897436" id="U43-Iw-Aa4"/>
+                            <constraint firstItem="o2v-fa-wc1" firstAttribute="leading" secondItem="sH2-vT-xc4" secondAttribute="leading" constant="-33" id="YVt-T9-q0T"/>
+                            <constraint firstItem="XkB-W7-dVI" firstAttribute="leading" secondItem="CLy-BP-ivP" secondAttribute="leading" constant="20" id="ZK7-v8-jo8"/>
+                            <constraint firstItem="vuA-ep-puT" firstAttribute="width" secondItem="sH2-vT-xc4" secondAttribute="width" multiplier="0.897436" id="chw-xf-W0q"/>
+                            <constraint firstItem="vuA-ep-puT" firstAttribute="top" secondItem="R58-Ko-UWX" secondAttribute="bottom" constant="35" id="egu-TS-nPW"/>
+                            <constraint firstItem="vuA-ep-puT" firstAttribute="leading" secondItem="CLy-BP-ivP" secondAttribute="leading" constant="20" id="hB5-vz-p7p"/>
+                            <constraint firstItem="cKc-AG-6bd" firstAttribute="leading" secondItem="CLy-BP-ivP" secondAttribute="leading" constant="20" id="kvy-Mc-wu8"/>
+                            <constraint firstItem="CLy-BP-ivP" firstAttribute="trailing" secondItem="vuA-ep-puT" secondAttribute="trailing" constant="20" id="mcy-dU-1YX"/>
+                            <constraint firstItem="cKc-AG-6bd" firstAttribute="height" secondItem="sH2-vT-xc4" secondAttribute="height" multiplier="0.0647709" id="orK-Rf-6Jb"/>
+                            <constraint firstItem="R58-Ko-UWX" firstAttribute="leading" secondItem="CLy-BP-ivP" secondAttribute="leading" constant="20" id="qud-XM-XWD"/>
+                            <constraint firstItem="vuA-ep-puT" firstAttribute="height" secondItem="sH2-vT-xc4" secondAttribute="height" multiplier="0.414692" id="sly-TB-Cee"/>
+                            <constraint firstItem="5zI-VN-YCF" firstAttribute="top" secondItem="cKc-AG-6bd" secondAttribute="bottom" constant="48" id="t6A-Qm-xnB"/>
+                            <constraint firstItem="XkB-W7-dVI" firstAttribute="top" secondItem="cKc-AG-6bd" secondAttribute="bottom" constant="48" id="t78-GQ-de2"/>
+                            <constraint firstItem="CLy-BP-ivP" firstAttribute="trailing" secondItem="R58-Ko-UWX" secondAttribute="trailing" constant="20" id="wgs-gx-6Tu"/>
+                            <constraint firstItem="CLy-BP-ivP" firstAttribute="trailing" secondItem="5zI-VN-YCF" secondAttribute="trailing" constant="20" id="zq2-yN-Itb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nCS-SL-Ptq"/>
+                    <connections>
+                        <outlet property="b2" destination="XkB-W7-dVI" id="0Nb-90-AKW"/>
+                        <outlet property="confeteVermelho" destination="o2v-fa-wc1" id="iH8-0I-GQ1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHw-ii-lIx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692" y="-23"/>
+        </scene>
+        <!--Page3-->
+        <scene sceneID="5D0-gV-ixw">
+            <objects>
+                <viewController storyboardIdentifier="Page3" id="5XF-6g-9oU" customClass="Page3" customModule="Mealmories" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zn7-aU-dyH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registre Mealmories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dn-Lc-v1A">
+                                <rect key="frame" x="20" y="109" width="353" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wVR-fZ-64d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="30"/>
+                                <color key="textColor" name="Adulto_Blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ob.3" translatesAutoresizingMaskIntoConstraints="NO" id="Bw6-uM-8CJ">
+                                <rect key="frame" x="20" y="193.99999999999997" width="353" height="353.33333333333326"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capture momentos mais inesperados ou divertidos sem sair do App!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="WlC-63-IfU">
+                                <rect key="frame" x="20" y="567.33333333333337" width="353" height="55.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Baloo2-SemiBold" family="Baloo 2" pointSize="32"/>
+                                <color key="textColor" name="Mealmories_Gray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tg7-T8-k4e">
+                                <rect key="frame" x="20" y="670.66666666666663" width="353" height="52"/>
+                                <color key="backgroundColor" name="Adulto_Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="NC5-4J-v54"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Vamos Começar!">
+                                    <fontDescription key="titleFontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="17"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="gotoApp:" destination="5XF-6g-9oU" eventType="touchUpInside" id="Hxb-l3-643"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="confete.azul" translatesAutoresizingMaskIntoConstraints="NO" id="GmY-E0-VFc">
+                                <rect key="frame" x="-34" y="630" width="300" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="CHt-UJ-bfg"/>
+                                    <constraint firstAttribute="width" constant="300" id="eX8-nZ-9ih"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="heT-AN-Q3H"/>
+                        <color key="backgroundColor" name="CorDaview"/>
+                        <constraints>
+                            <constraint firstItem="WlC-63-IfU" firstAttribute="top" secondItem="Bw6-uM-8CJ" secondAttribute="bottom" constant="20" id="0hr-KR-TB7"/>
+                            <constraint firstItem="heT-AN-Q3H" firstAttribute="trailing" secondItem="tg7-T8-k4e" secondAttribute="trailing" constant="20" id="HSz-0R-Ufi"/>
+                            <constraint firstItem="WlC-63-IfU" firstAttribute="height" secondItem="Zn7-aU-dyH" secondAttribute="height" multiplier="0.0647709" id="Ipb-Us-NTR"/>
+                            <constraint firstItem="9dn-Lc-v1A" firstAttribute="top" secondItem="heT-AN-Q3H" secondAttribute="top" constant="50" id="Iss-72-8Oz"/>
+                            <constraint firstItem="Bw6-uM-8CJ" firstAttribute="width" secondItem="Zn7-aU-dyH" secondAttribute="width" multiplier="0.897436" id="Lep-Jx-Jcb"/>
+                            <constraint firstItem="tg7-T8-k4e" firstAttribute="top" secondItem="WlC-63-IfU" secondAttribute="bottom" constant="48" id="Lkl-2n-FOg"/>
+                            <constraint firstItem="9dn-Lc-v1A" firstAttribute="leading" secondItem="heT-AN-Q3H" secondAttribute="leading" constant="20" id="MtI-0O-DUn"/>
+                            <constraint firstItem="heT-AN-Q3H" firstAttribute="trailing" secondItem="WlC-63-IfU" secondAttribute="trailing" constant="20" id="WF2-eW-641"/>
+                            <constraint firstItem="tg7-T8-k4e" firstAttribute="leading" secondItem="heT-AN-Q3H" secondAttribute="leading" constant="20" id="Xz2-p9-CYa"/>
+                            <constraint firstItem="Bw6-uM-8CJ" firstAttribute="leading" secondItem="heT-AN-Q3H" secondAttribute="leading" constant="20" id="ZdG-yF-0A0"/>
+                            <constraint firstItem="WlC-63-IfU" firstAttribute="leading" secondItem="heT-AN-Q3H" secondAttribute="leading" constant="20" id="Zgg-mv-q4Z"/>
+                            <constraint firstItem="heT-AN-Q3H" firstAttribute="trailing" secondItem="Bw6-uM-8CJ" secondAttribute="trailing" constant="20" id="Zr3-Z0-v73"/>
+                            <constraint firstItem="GmY-E0-VFc" firstAttribute="leading" secondItem="Zn7-aU-dyH" secondAttribute="leading" constant="-34" id="bBj-ka-cXU"/>
+                            <constraint firstItem="Bw6-uM-8CJ" firstAttribute="height" secondItem="Zn7-aU-dyH" secondAttribute="height" multiplier="0.414692" id="c3g-zr-TRB"/>
+                            <constraint firstItem="heT-AN-Q3H" firstAttribute="trailing" secondItem="9dn-Lc-v1A" secondAttribute="trailing" constant="20" id="kmE-HG-pd1"/>
+                            <constraint firstItem="Bw6-uM-8CJ" firstAttribute="top" secondItem="9dn-Lc-v1A" secondAttribute="bottom" constant="35" id="occ-ZI-0Et"/>
+                            <constraint firstItem="WlC-63-IfU" firstAttribute="width" secondItem="Zn7-aU-dyH" secondAttribute="width" multiplier="0.897436" id="q7I-t2-Vjx"/>
+                            <constraint firstAttribute="bottom" secondItem="GmY-E0-VFc" secondAttribute="bottom" constant="-58" id="ydc-5c-J0F"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rTe-nZ-6L7"/>
+                    <connections>
+                        <outlet property="b3" destination="tg7-T8-k4e" id="8XZ-nb-ouY"/>
+                        <outlet property="confeteAzul" destination="GmY-E0-VFc" id="zQE-hf-aYG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8t1-PS-88C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2412" y="-23"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Seta 2" width="33" height="33"/>
+        <image name="confete" width="221" height="213"/>
+        <image name="confete.amarelo" width="221" height="213"/>
+        <image name="confete.azul" width="221" height="213"/>
+        <image name="ob.1" width="350" height="350"/>
+        <image name="ob.2" width="350" height="350"/>
+        <image name="ob.3" width="350" height="350"/>
+        <namedColor name="Adulto_Blue">
+            <color red="0.0" green="0.49803921568627452" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Child_Orange">
+            <color red="0.97647058823529409" green="0.58039215686274515" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CorDaview">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Mealmories_Gray">
+            <color red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Mix_Magenta">
+            <color red="0.97647058823529409" green="0.38039215686274508" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

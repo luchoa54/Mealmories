@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Baloo2-Bold.ttf">
+            <string>Baloo2-Bold</string>
+        </array>
+        <array key="Baloo2-SemiBold.ttf">
+            <string>Baloo2-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Template Screen-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Template" id="Y6W-OH-hqX" customClass="TemplateScreen" customModule="Mealmories" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jas-Fp-geX">
+                                <rect key="frame" x="20" y="523" width="350" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="YK8-YC-S1M"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Compartilhar">
+                                    <fontDescription key="titleFontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="17"/>
+                                    <color key="baseBackgroundColor" name="Mix_Magenta"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Share:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="dZv-9Y-1PF"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ln-ka-WxD">
+                                <rect key="frame" x="20" y="49.999999999999972" width="350" height="474.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pão de Queijo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="5Bi-AQ-e39">
+                                        <rect key="frame" x="20" y="20" width="310" height="35"/>
+                                        <fontDescription key="fontDescription" name="Baloo2-Bold" family="Baloo 2" pointSize="30"/>
+                                        <color key="textColor" name="Mix_Magenta"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feito com Mealmories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="M78-2x-Kxj">
+                                        <rect key="frame" x="20" y="61.000000000000007" width="310" height="26.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="Baloo2-SemiBold" family="Baloo 2" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jix-3G-pJ2">
+                                        <rect key="frame" x="10" y="107.33333333333337" width="330" height="347"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reward.pipoca.2" translatesAutoresizingMaskIntoConstraints="NO" id="ViK-jH-EW8" userLabel="Medalha">
+                                        <rect key="frame" x="0.0" y="354.33333333333331" width="104" height="120"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon sharing" translatesAutoresizingMaskIntoConstraints="NO" id="iPM-mr-IGO" userLabel="Mealmories">
+                                        <rect key="frame" x="270" y="394.33333333333331" width="80" height="80"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="LabelMagenta"/>
+                                <constraints>
+                                    <constraint firstItem="5Bi-AQ-e39" firstAttribute="leading" secondItem="7ln-ka-WxD" secondAttribute="leading" constant="20" id="1kP-q6-XcC"/>
+                                    <constraint firstAttribute="trailing" secondItem="M78-2x-Kxj" secondAttribute="trailing" constant="20" id="9jR-CF-eTD"/>
+                                    <constraint firstItem="iPM-mr-IGO" firstAttribute="width" secondItem="7ln-ka-WxD" secondAttribute="width" multiplier="0.228571" id="9qb-92-KAs"/>
+                                    <constraint firstAttribute="bottom" secondItem="ViK-jH-EW8" secondAttribute="bottom" id="C6F-g0-6MO"/>
+                                    <constraint firstItem="Jix-3G-pJ2" firstAttribute="top" secondItem="M78-2x-Kxj" secondAttribute="bottom" constant="20" id="E2c-1A-yvg"/>
+                                    <constraint firstItem="ViK-jH-EW8" firstAttribute="width" secondItem="7ln-ka-WxD" secondAttribute="width" multiplier="0.297143" id="I4p-jy-3sS"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jix-3G-pJ2" secondAttribute="bottom" constant="20" id="IRJ-1Q-u5S"/>
+                                    <constraint firstItem="ViK-jH-EW8" firstAttribute="height" secondItem="7ln-ka-WxD" secondAttribute="height" multiplier="0.252987" id="Jz0-lz-lmr"/>
+                                    <constraint firstItem="Jix-3G-pJ2" firstAttribute="height" secondItem="7ln-ka-WxD" secondAttribute="height" multiplier="0.731707" id="LEQ-7Q-Wla"/>
+                                    <constraint firstItem="5Bi-AQ-e39" firstAttribute="width" secondItem="7ln-ka-WxD" secondAttribute="width" multiplier="0.885714" id="Mo3-Y5-afZ"/>
+                                    <constraint firstItem="M78-2x-Kxj" firstAttribute="top" secondItem="5Bi-AQ-e39" secondAttribute="bottom" constant="6" id="P8b-yQ-3wA"/>
+                                    <constraint firstItem="ViK-jH-EW8" firstAttribute="leading" secondItem="7ln-ka-WxD" secondAttribute="leading" id="Q3j-E1-xeQ"/>
+                                    <constraint firstItem="iPM-mr-IGO" firstAttribute="height" secondItem="7ln-ka-WxD" secondAttribute="height" multiplier="0.168658" id="S8M-HL-wpQ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="475" id="Tao-60-jcj"/>
+                                    <constraint firstAttribute="bottom" secondItem="iPM-mr-IGO" secondAttribute="bottom" id="ZaT-fb-pSv"/>
+                                    <constraint firstAttribute="trailing" secondItem="iPM-mr-IGO" secondAttribute="trailing" id="Zny-Lj-DGa"/>
+                                    <constraint firstItem="M78-2x-Kxj" firstAttribute="width" secondItem="7ln-ka-WxD" secondAttribute="width" multiplier="0.885714" id="b2L-eN-Tec"/>
+                                    <constraint firstItem="5Bi-AQ-e39" firstAttribute="height" secondItem="7ln-ka-WxD" secondAttribute="height" multiplier="0.0736842" id="cnq-Sg-cxP"/>
+                                    <constraint firstItem="Jix-3G-pJ2" firstAttribute="leading" secondItem="7ln-ka-WxD" secondAttribute="leading" constant="10" id="jBW-Qm-UOq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jix-3G-pJ2" secondAttribute="trailing" constant="10" id="kCe-kC-Bx9"/>
+                                    <constraint firstItem="M78-2x-Kxj" firstAttribute="leading" secondItem="7ln-ka-WxD" secondAttribute="leading" constant="20" id="of4-FF-gqH"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Bi-AQ-e39" secondAttribute="trailing" constant="20" id="qrg-nb-Dgn"/>
+                                    <constraint firstItem="M78-2x-Kxj" firstAttribute="height" secondItem="7ln-ka-WxD" secondAttribute="height" multiplier="0.0554386" id="tJL-U0-atQ"/>
+                                    <constraint firstItem="5Bi-AQ-e39" firstAttribute="top" secondItem="7ln-ka-WxD" secondAttribute="top" constant="20" id="wet-Ld-qhu"/>
+                                    <constraint firstItem="Jix-3G-pJ2" firstAttribute="width" secondItem="7ln-ka-WxD" secondAttribute="width" multiplier="0.942857" id="yFt-OD-5d8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="CorDaview"/>
+                        <constraints>
+                            <constraint firstItem="7ln-ka-WxD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="293-oQ-Jhd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7ln-ka-WxD" secondAttribute="trailing" constant="20" id="7jl-mk-PVW"/>
+                            <constraint firstItem="jas-Fp-geX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="8z7-bg-u9V"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jas-Fp-geX" secondAttribute="trailing" constant="20" id="Ap7-wu-JjU"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jas-Fp-geX" secondAttribute="bottom" constant="20" id="Nxa-sk-00z"/>
+                            <constraint firstItem="7ln-ka-WxD" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="mOB-SW-7rx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Name" destination="5Bi-AQ-e39" id="wSW-Fw-efd"/>
+                        <outlet property="imagemMedalha" destination="ViK-jH-EW8" id="Upp-Sp-yk6"/>
+                        <outlet property="photo" destination="Jix-3G-pJ2" id="i4u-vd-pdx"/>
+                        <outlet property="shareView" destination="7ln-ka-WxD" id="1CI-cY-17Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18.46153846153846" y="-17.061611374407583"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon sharing" width="1024" height="1024"/>
+        <image name="reward.pipoca.2" width="139.52999877929688" height="160"/>
+        <namedColor name="CorDaview">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LabelMagenta">
+            <color red="0.99607843137254903" green="0.90588235294117647" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Mix_Magenta">
+            <color red="0.97647058823529409" green="0.38039215686274508" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

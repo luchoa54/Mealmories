@@ -1,0 +1,222 @@
+/* 
+  Localizable.strings
+  Challenge04LGBB
+
+  Created by Luciano Uchoa on 09/09/22.
+  
+*/
+//Notificações
+
+
+"Quais seus planos pra noite?" = "Plans for tonight?";
+"Faça uma receita deliciosa em conjunto para criar mais Mealmories." = "Let’s cook a delicious recipe together to create more Mealmories.";
+"Que tal um café da manhã delicioso?" = "What about a delicious breakfast?";
+"Com panquecas coloridas o tudo fica mais divertido! " = "With Coloured Pancakes everything is more fun!";
+"Lanche da tarde rápido" = " Quick snack?";
+"Uma pipoca? Mini Gelatinas? Brigadeiro? Há vários jeitos de se divertir." = "Popcorn? Mini jelly? Brigadeiro? There are several ways to have fun today.";
+"Crie Mealmories para suas manhãs!" = "Create Mealmories this morning!";
+"Faça várias receitas e combine possibilidades pra ter uma refeição única." = "Make several recipes and combine possibilites for a unique meal.";
+"Que tal um filme e bastante comida?" = "What about a movie and plenty of food?";
+"Venha fazer as receitas mais gostosas e divertidas com quem ama, combine todas e faça um grande lanche! " = "Let’s Cook more delicious and fun recipes with the ones your love, get together and cook a big snack!";
+//Geral
+
+"Ajustes" = "Settings";
+"Cancelar" = "Cancel";
+"Permissão Necessária" = "Permission Required";
+"Para salvar as fotos, é necessário habilitar a permissão nos Ajustes" = "To save photos, you need to enable permission in Settings";
+//Dicas - Gerais
+
+"Mãos ocupadas para passar as instruções? Ative a interação sem toque nas configurações!" = "Hands full to pass instructions? Enable touchless interaction in settings!";
+"Esqueceu a quantidade? Verifique-a no ícone do canto superior direito da tela!" = "Forgot the amount? Check it in the icon at the top right of the screen!";
+"Lembre-se de registrar mealmories e guarde as fotos na sua galeria!"= "Remember to register mealmories and save the photos in your gallery!";
+
+//Titulo-Receitas
+"Pão de Queijo" = "Cheese Bread";
+"Pipoca" = "Popcorn";
+"Panqueca Colorida" = "Colored pancakes";
+"Mini Gelatinas" = "Mini Jellys";
+
+//Tipo de Turnos
+"Adulto" = "Adult";
+"Criança" = "Kid";
+
+//Dificuldades
+"Fácil" = "Easy";
+"Médio" = "Medium";
+"Difícil" = "Hard";
+
+//Idades
+"+ 4 anos" = "+4 years old";
+"+ 3 anos" = "+3 years old";
+"+4 anos" = "+4 years";
+"+3 anos" = "+3 years";
+"+ 5 anos" = "+5 years old";
+"+5 anos" = "+5 years";
+"+ 6 anos" = "+6 years old";
+"+6 anos" = "+6 years";
+
+//Label embaixo do Turno
+"Siga as instruções abaixo:" = "Follow the instructions bellow:";
+"Vocês podem fazer essa etapa juntos!!!" = "You can do this step together!!!";
+
+//Pão de Queijo
+
+//Ingredientes - Pão de Queijo
+
+"400g de polvilho doce ou de sua preferência" = "400g of sweet sprinkle or your choice";
+"400g de queijo parmesão ralado" = "400g grated Parmesan cheese";
+"2 caixas de creme de leite (400g)" = "2 boxes of sour cream (400g)";
+"Para untar: manteiga e trigo, spray untador, papel manteiga ou óleo." = "To grease: butter and wheat, greaser spray, parchment paper or oil.";
+
+//Descricao das Etapas - Pão de Queijo
+
+"Em uma vasilha, junte os ingredientes secos: polvilho doce, e parmesão." = "In a bowl, combine the dry ingredients: sweet sprinkle, and parmesan.";
+"Misture bem com uma colher ou com a mão!" = "Mix well with a spoon or by hand!";
+"Adicione o creme de leite, misturando com as mãos até formar uma massa homogênea e firme." = "Add the milk cream, mixing with your hands until it forms a homogeneous and firm mass.";
+"Retire porções pequenas da massa." = "Remove small portions of the dough.";
+"Modele do formato que quiser, bolinhas, dadinhos, seja criativo!" = "Model any shape you want, polka dots, dices, be creative!";
+"Unte uma fôrma com manteiga e trigo, papel manteiga ou spray de untar." = "Grease a pan with butter and wheat, parchment paper or grease spray.";
+"Coloque as massas modeladas ao lado da outra na fôrma untada." = "Place the modeled doughs next to each other in the greased form.";
+"Leve ao forno alto, preaquecido a 180°C , por 15 minutos ou até dourar." = "Bake in a high oven, preheated to 356°F, for 15 minutes or until golden.";
+"Retire e sirva em seguida." = "Remove and serve.";
+
+//Dicas - Pão de Queijo
+
+"Qualquer tipo de polvilho é bem-vindo, variando de acordo com o seu gosto." = "Any type of sprinkle is welcome, depending on your taste.";
+"Para não perder o ponto da massa, adicione creme de leite aos poucos." = "In order not to lose the point of the dough, add the milk cream little by little.";
+"Pode haver ajuda do adulto na orientação, mas é interessante que a criança faça sozinha." = "There may be adult help in the orientation, but it is interesting for the child to do it alone.";
+"Deixe sempre um pequeno espaço entre as massas, pode facilitar na hora de retirar os pães." = "Always leave a small space between the doughs, it can make it easier when removing the buns.";
+
+//Etapas - Pão de Queijo
+
+"Preparo da massa" = "Dough preparation";
+"Preparo das formas" = "Form preparation";
+"Finalizar preparo" = "Finish preparation";
+
+//Pipoca
+
+//Ingredientes - Pipoca
+"4 colheres (sopa) de milho para pipoca" = "4 tablespoons of corn for popcorn";
+"4 colheres (sopa) de água" = "4 tablespoons of water";
+"1 colher (chá) de sal" = "1 teaspoon of salt";
+"Plástico Filme" = "Plastic Film";
+
+//Descrição das Etapas - Pipoca
+
+"Em uma tigela de vidro, adicione o milho para pipoca e sal." = "In a glass bowl, add the corn and salt.";
+"Adicione as colheres de água e misture" = "Add the spoons of water and mix";
+"Cubra com um filme plástico" = "Cover with plastic wrap";
+"Faça 4 furos com garfo" = "Drill 4 holes with fork";
+"Coloque por 4 minutos no microondas" = "Put it in the microwave for 4 minutes";
+"Retire a pipoca do microondas" = "Remove popcorn from microwave";
+
+//Dicas - Pipoca
+
+"Esqueceu a quantidade? Verifique-a no ícone do canto superior direito da tela!" = "Forgot the amount? Check it in the icon in the upper right corner of the screen!";
+
+//Etapas - Pipoca
+
+"Juntar" = "Gather";
+"Cobrir" = "Cover Up";
+"Microondas" = "Microwave";
+
+//Panqueca Colorida
+
+//Ingredientes - Panquecas Coloridas
+
+"1 xícara de leite" = "1 cup of milk";
+"2 ovos" = "2 eggs";
+"1 xícara de farinha" = "1 cup of flour";
+"1 colher de sopa de óleo" =  "1 tablespoon of oil";
+"1 colher de café rasa de sal" = "1 teaspoon of salt";
+"2 xícaras de cenoura ralada" = "2 cups grated carrots";
+"1 ½ xícara de beterraba ralada" = "1 ½ cup grated beets";
+
+//Descrição das Etapas - Panquecas Coloridas
+
+"Misture o leite, os ovos, a farinha, o óleo e o sal dentro do liquidificador." = "Mix the milk, eggs, flour, oil and salt in the blender.";
+"Se quiser a panqueca laranja, adicione cenoura ralada, se quiser a panqueca rosa, adicione a beterraba." = "If you want the orange pancake, add the grated carrot, if you want the pink pancake, add the beetroot.";
+"Bata a massa no liquidificador até ficar homogênea." = "Blend the dough in a blender until smooth.";
+"Unte uma frigideira com um pouco de manteiga." = "Grease a frying pan with some butter.";
+"Com uma concha, coloque uma porção da massa na frigideira e espalhe por toda a superfície." = "With a ladle, place a portion of the dough in the skillet and spread over the entire surface.";
+"Deixe dourar dos dois lados." = "Let it brown on both sides.";
+"Tire da frigideira e repita o processo com a concha até a massa acabar." = "Take it out of the pan and repeat the process with the ladle until the dough runs out.";
+"Retire o resto das panquecas e sirva." = "Remove the rest of the pancakes and serve.";
+
+//Dicas - Panqueca Colorida
+
+"Recomendação de recheio: carne moída, cenoura ralada, beterraba ralada, queijo branco picadinho" = "Stuffing recommendation: ground beef, grated carrots, grated beets, finely chopped white cheese";
+
+//Etapas - Panquecas Colorida
+
+"Fazer a Massa" = "Making the Dought";
+"Fritar" = "Fry";
+"Finalizar" = "Finish";
+
+//Mini Gelatina
+
+//Ingredientes - Mini gelatina
+
+"1 sachê de gelatina de sua preferência" = "1 packet of jelly of your choice";
+"250ml de agua fervendo" = "8,45 oz of boiling water";
+"250ml de agua fria" = "8,45 oz of cold water";
+"1 caixa de creme de leite" = "6,76 oz of milk cream";
+"1 caixa de leite condensado" = "6,76 oz of condensed milk";
+"1 xícara de leite" = "1 cup of milk";
+"1 suco em pó de sua preferência" = "1 powdered juice of your choice";
+"Granulados variados (opcional)" = "Assorted granules (optional)";
+
+//Descrição das Etapas - Mini gelatina
+
+"Coloque o sachê de gelatina na agua fervente e misture até dissolver todo o açúcar da gelatina." = "Place the gelatin sachet in the boiling water and mix until all the sugar in the gelatin dissolves.";
+"Adicione a água fria a gelatina e misture bem." = "Add cold water to gelatin and mix well.";
+"Coloque a gelatina em copinhos até a metade e leve a geladeira até ficarem bem durinhas." = "Pour the gelatin in cups halfway and take the fridge until they are very hard.";
+"Adicione o creme de leite, leite condensado, leite e o suco em pó no liquidificador." = "Add the cream, condensed milk, milk and powdered juice to the blender.";
+"Misture por 1 minutinho ou até ficar consistente." = "Blend for 1 minute or until consistent.";
+"Adicione o mousse por cima da gelatina no copinho." = "Add the mousse over the gelatin in the cup.";
+"Finalize com granulados (Opcional) e sirva." = "Finish with sprinkles (Optional) and serve.";
+
+//Dicas - Mini Gelatina
+
+"Decore de acordo com a cor da gelatina escolhida!" = "Decorate according to the color of the chosen jelly!";
+
+//Etapas - Mini Gelatina
+
+"Gelatina" = "Jelly";
+"Decorar" = "Decorate";
+
+//Brigadeiro
+
+//Ingredientes - Brigadeiro
+
+"1/2 colher (sopa) de margarina" = "1/2 tablespoon of butter";
+"1 unidade de gema de ovo" = "1 unit of egg yolk";
+"1 lata de leite condensado" = "1 can of condensed milk";
+"2 colheres (sopa) de chocolate em pó" = "2 tablespoons of powdered chocolate";
+"Chocolate granulado a gosto" = "Chocolate sprinkles to taste";
+
+//Etapas - Brigadeiro
+
+"Mistura os ingredientes" = "Mix the ingredients";
+"Preparar o doce" =  "Prepare the candy";
+"Fazer bolinhas com granulado"= "Make small balls with sprinkles";
+
+//Descrição das Etapas - Brigadeiro
+
+"Em uma panela coloque todos os ingredientes, menos o granulado." = "In a pan put all the ingredients, except the sprinkles.";
+"Misture até ficar homogêneo." = "Mix until smooth.";
+"Leve ao fogo baixo, sem para de mexer, por aproximadamente 10 minutos, até engrossar." = "Cook over low heat, stirring constantly, for approximately 10 minutes, until thickened.";
+"Coloque num prato e deixe esfriar na geladeira por 30 minutos após disso retire." = "Put it on the plate and let it cool in the fridge for 30 minutes after that remove it.";
+"Faça pequenas bolinhas e adicione chocolate granulado." = "Make small balls and add chocolate sprinkles.";
+"Sirva e aproveite!" = "Serve it and enjoy!";
+
+//Dicas - Brigadeiro
+
+"Precisa desprender do fundo da panela." = " It needs to come off the bottom of the pan.";
+"Unte as mãos com um pouco de margarina." = "Grease your hands with a little butter.";
+
+//Etapas - Brigadeiro
+
+"Mistura os ingredientes" = "Mix the ingredients";
+"Preparar o doce" = "Prepare the candy";
+"Fazer bolinhas com granulado" = "Make small balls with sprinkles";

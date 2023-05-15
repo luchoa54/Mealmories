@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Dos dois tipos de polvilho, o doce é mais recomendável dependendo do manuseio."; ObjectID = "0aP-jH-D7M"; */
+"0aP-jH-D7M.text" = "בשני סוגי המתזים מומלץ יותר ממתקים, בהתאם לטיפול.";
+
+/* Class = "UILabel"; text = "Preparo da receita"; ObjectID = "2hl-Tx-UpE"; */
+"2hl-Tx-UpE.text" = "הכנת מתכון";
+
+/* Class = "UILabel"; text = "Siga a seguinte instrução:"; ObjectID = "6V8-Vs-nYI"; */
+"6V8-Vs-nYI.text" = "בצע את ההוראות הבאות:";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "CCX-UK-0q2"; */
+"CCX-UK-0q2.title" = "Title";
+
+/* Class = "UILabel"; text = "Em uma vasilha, junte os secos: polvinho doce e o parmesão"; ObjectID = "czN-bv-CPP"; */
+"czN-bv-CPP.text" = "מערבבים בקערה את החומרים היבשים: תמנון מתוק ופרמזן";
+
+/* Class = "UILabel"; text = "Adulto"; ObjectID = "f6u-Eg-cEd"; */
+"f6u-Eg-cEd.text" = "מְבוּגָר";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pne-fb-yWh"; */
+"pne-fb-yWh.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "É hora de comer!"; ObjectID = "qhd-gs-qhb"; */
+"qhd-gs-qhb.configuration.title" = "זה זמן לאכול!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qhd-gs-qhb"; */
+"qhd-gs-qhb.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wY7-zh-pSu"; */
+"wY7-zh-pSu.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "TURNOS"; ObjectID = "woD-OK-cUV"; */
+"woD-OK-cUV.text" = "מִשׁמֶרֶת";
